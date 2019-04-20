@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="content" prefHeight="466.0" prefWidth="913.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.PassengerProfile">
+    <children>
+        <Label layoutX="7.0" layoutY="7.0" prefHeight="39.0" prefWidth="161.0" text="Passenger's Profile" textFill="#6f0303">
+            <font>
+                <Font size="18.0" />
+            </font>
+        </Label>
+        <Label layoutX="7.0" layoutY="46.0" text="Name:" />
+        <Label fx:id="PassengerName" layoutX="46.0" layoutY="46.0" prefHeight="17.0" prefWidth="74.0" />
+        <Label layoutX="26.0" layoutY="75.0" text="Book a trip" textFill="#a40000">
+            <font>
+                <Font size="15.0" />
+            </font>
+        </Label>
+      <Button layoutX="412.0" layoutY="333.0" mnemonicParsing="false" text="Book" />
+      <TextField layoutX="235.0" layoutY="333.0" />
+      <Label layoutX="140.0" layoutY="337.0" text="Trip Number :" />
+      <Label fx:id="Information" layoutX="36.0" layoutY="115.0" prefHeight="207.0" prefWidth="846.0" />
+      <Button layoutX="125.0" layoutY="84.0" mnemonicParsing="false" onAction="#ShowInformation" text="Show Information" />
+    </children>
+</AnchorPane>

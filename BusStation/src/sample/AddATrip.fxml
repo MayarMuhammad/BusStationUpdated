@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<!--<TextField fx:id="Source" layoutX="123.0" layoutY="76.0" />-->
+<!--<TextField fx:id="DriverName" layoutX="123.0" layoutY="110.0" />-->
+<!--<TextField fx:id="VehicleType" layoutX="123.0" layoutY="143.0" />-->
+<!--<TextField fx:id="Stops" layoutX="123.0" layoutY="175.0" />-->
+<!--<TextField fx:id="TimeSet" layoutX="123.0" layoutY="208.0" />-->
+<!--<TextField fx:id="Date" layoutX="123.0" layoutY="243.0" />-->
+<!--<TextField fx:id="Destination" layoutX="456.0" layoutY="80.0" />-->
+<!--<TextField fx:id="VehicleNumber" layoutX="456.0" layoutY="114.0" />-->
+<!--<TextField fx:id="TripWay" layoutX="456.0" layoutY="147.0" />-->
+<!--<TextField fx:id="Classes" layoutX="456.0" layoutY="179.0" />-->
+<!--<TextField fx:id="TimeReach" layoutX="456.0" layoutY="212.0" />-->
+<!--<TextField fx:id="Price" layoutX="456.0" layoutY="247.0" />-->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="741.0" xmlns="http://javafx.com/javafx/8.0.172-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AddATrip">
+   <children>
+      <Label layoutX="206.0" layoutY="77.0" text="Trip ID" />
+      <Label layoutX="62.0" layoutY="122.0" text="Source" />
+      <Label layoutX="62.0" layoutY="156.0" text="DriverName" />
+      <Label layoutX="62.0" layoutY="189.0" text="VehicleType" />
+      <Label layoutX="62.0" layoutY="221.0" prefHeight="17.0" prefWidth="38.0" text="Stops" />
+      <Label layoutX="62.0" layoutY="289.0" text="Date" />
+      <Label layoutX="62.0" layoutY="254.0" text="TimeSet" />
+      <Label layoutX="391.0" layoutY="125.0" text="Destination" />
+      <Label layoutX="391.0" layoutY="159.0" text="VehicleNumber" />
+      <Label layoutX="391.0" layoutY="192.0" text="TripWay" />
+      <Label layoutX="391.0" layoutY="224.0" text="Classes" />
+      <Label layoutX="391.0" layoutY="257.0" text="TimeReach" />
+      <Label layoutX="391.0" layoutY="292.0" text="Price" />
+      <TextField fx:id="ID" layoutX="272.0" layoutY="73.0" />
+       <Button layoutX="231.0" layoutY="348.0" mnemonicParsing="false" onAction="#onAddPressed" text="Add" />
+       <Button layoutX="309.0" layoutY="348.0" mnemonicParsing="false" onAction="#onEditPressed" text="Edit" />
+       <Button layoutX="387.0" layoutY="348.0" mnemonicParsing="false" onAction="#onDeletePressed" text="Delete" />
+      <TextField fx:id="Source" layoutX="168.0" layoutY="121.0" />
+      <TextField fx:id="DriverName" layoutX="168.0" layoutY="155.0" />
+      <TextField fx:id="VehicleType" layoutX="168.0" layoutY="188.0" />
+      <TextField fx:id="Stops" layoutX="168.0" layoutY="220.0" />
+      <TextField fx:id="TimeSet" layoutX="168.0" layoutY="250.0" />
+      <TextField fx:id="Date" layoutX="168.0" layoutY="288.0" />
+      <TextField fx:id="Destination" layoutX="508.0" layoutY="121.0" />
+      <TextField fx:id="VehicleNumber" layoutX="508.0" layoutY="155.0" />
+      <TextField fx:id="TripWay" layoutX="508.0" layoutY="188.0" />
+      <TextField fx:id="Classes" layoutX="508.0" layoutY="220.0" />
+      <TextField fx:id="TimeReach" layoutX="508.0" layoutY="253.0" />
+      <TextField fx:id="Price" layoutX="508.0" layoutY="288.0" />
+   </children>
+</AnchorPane>
